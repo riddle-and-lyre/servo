@@ -16,6 +16,9 @@
 #![deny(unsafe_code)]
 #![allow(non_snake_case)]
 
+// FIXME: https://github.com/rust-lang/rust/issues/46906#issuecomment-355276048
+#![allow(tyvar_behind_raw_pointer)]
+
 #![doc = "The script crate contains all matters DOM."]
 
 #![plugin(script_plugins)]
